@@ -1,0 +1,84 @@
+.home-container {
+    height: 300px;
+    color: white;
+    padding-left: 150px;
+    
+}
+
+.home-content h2{
+    padding: 5px;
+    padding-top: 60px;
+    /* margin-left: 200px; */
+    
+}
+.home-content h1{
+    color: #e0b50f;
+    /* padding-left: 200px; */
+    padding: 5px;
+    /* margin-left: 200px; */
+}
+.home-buttons{
+    color: white;
+    margin-top: 30px;
+    /* margin-left: 200px; */
+    
+}
+.home-buttons .btn-hire{
+    background-color: #3b8ff3;
+    color: white;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px
+}
+.home-buttons .btn-hire:hover{
+    background-color: white;
+    color: #3b8ff3;
+    width: 200px;
+    transition: 1s;
+}
+.home-buttons .btn-cv{
+    background-color: #f29f67;
+    color: white;
+    margin-left: 20px;
+    height: 40px;
+    width: 160px;
+    border-radius: 10px;
+}
+.home-buttons .btn-cv:hover{
+    opacity: 50%;
+    transition: 1s;
+}
+.btn{
+    height: 40px;
+}
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+
+/* ****media **** */
+@media(max-width:600px){
+    .home-container{
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .home-container h2{
+        font-size: 24px;
+    }
+    .home-container h1{
+        font-size: 24px;
+    }
+}
